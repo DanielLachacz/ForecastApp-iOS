@@ -17,8 +17,8 @@
 		D57DCF37226C6D74002230A6 /* ForecastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57DCF36226C6D74002230A6 /* ForecastAppTests.swift */; };
 		D57DCF42226C6D74002230A6 /* ForecastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57DCF41226C6D74002230A6 /* ForecastAppUITests.swift */; };
 		D59682542270B4C40072C174 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59682532270B4C40072C174 /* ForecastCell.swift */; };
-		D5B19CC122898888000A6719 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B19CC022898888000A6719 /* WeatherForecast.swift */; };
-		D5CDA39F2279B09300B76512 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CDA3982279B09300B76512 /* CurrentWeather.swift */; };
+		D5FF8910228C34D00035640A /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FF890F228C34D00035640A /* CurrentWeather.swift */; };
+		D5FF8912228C34E70035640A /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FF8911228C34E70035640A /* WeatherForecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		D57DCF41226C6D74002230A6 /* ForecastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastAppUITests.swift; sourceTree = "<group>"; };
 		D57DCF43226C6D74002230A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D59682532270B4C40072C174 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
-		D5B19CC022898888000A6719 /* WeatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherForecast.swift; path = ../../../../../Downloads/WeatherForecast.swift; sourceTree = "<group>"; };
-		D5CDA3982279B09300B76512 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentWeather.swift; path = ../../../../../Downloads/Source_file_JsonCafe/CurrentWeather.swift; sourceTree = "<group>"; };
+		D5FF890F228C34D00035640A /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		D5FF8911228C34E70035640A /* WeatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
 		E084C0DAC1D0BD2B367BA746 /* Pods-ForecastApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastApp.release.xcconfig"; path = "Target Support Files/Pods-ForecastApp/Pods-ForecastApp.release.xcconfig"; sourceTree = "<group>"; };
 		EAC5C5E480CCF80874B649C3 /* Pods_ForecastApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForecastApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -171,8 +171,8 @@
 		D5CDA3972279B07300B76512 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D5B19CC022898888000A6719 /* WeatherForecast.swift */,
-				D5CDA3982279B09300B76512 /* CurrentWeather.swift */,
+				D5FF8911228C34E70035640A /* WeatherForecast.swift */,
+				D5FF890F228C34D00035640A /* CurrentWeather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -361,9 +361,9 @@
 				D57DCF24226C6D71002230A6 /* ViewController.swift in Sources */,
 				D59682542270B4C40072C174 /* ForecastCell.swift in Sources */,
 				D563A4B922807C8000AE15EF /* WeatherService.swift in Sources */,
-				D5CDA39F2279B09300B76512 /* CurrentWeather.swift in Sources */,
+				D5FF8912228C34E70035640A /* WeatherForecast.swift in Sources */,
+				D5FF8910228C34D00035640A /* CurrentWeather.swift in Sources */,
 				D57DCF22226C6D71002230A6 /* AppDelegate.swift in Sources */,
-				D5B19CC122898888000A6719 /* WeatherForecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
